@@ -101,7 +101,7 @@ string input="-3";
 //Act
 int actualValue=Add(input);
 //Assert
-ASSERT_EQ(actualValue,invalid argument;
+ASSERT_EQ(Add(input),invalid argument;
 
 }
  
