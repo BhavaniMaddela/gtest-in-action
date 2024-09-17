@@ -64,4 +64,14 @@ int actualValue=Add(input);
 ASSERT_EQ(actualValue,expectedValue);
  
 }
+TEST(string_calculatorTestSuite,when_passed_multicharacter_delimiterString_SumIsExpected){
+//Arrange
+string input="//[***]\n8***2***3";
+int expectedValue=13;
+//Act
+int actualValue=Add(input);
+//Assert
+ASSERT_EQ(actualValue,expectedValue);
+ 
+}
  
