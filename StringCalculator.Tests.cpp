@@ -72,7 +72,19 @@ int expectedValue=13;
 int actualValue=Add(input);
 //Assert
 ASSERT_EQ(actualValue,expectedValue);
+
+}
+
+TEST(string_calculatorTestSuite,passed_multiple_delimitersString_SumIsExpected){
+//Arrange
+string input="//[*][%]\n4*2%3";
+int expectedValue=9;
+//Act
+int actualValue=Add(input);
+//Assert
+ASSERT_EQ(actualValue,expectedValue);
  
+}
  
 }
 TEST(string_calculatorTestSuite,passed_multiple_multicharacter_delimitersString_SumIsExpected){
@@ -101,7 +113,7 @@ string input="-3";
 //Act
 
 //Assert
-ASSERT_EQ(Add(input),invalid argument;
+ASSERT_EQ(Add(input),invalid argument);
 
 }
  
