@@ -22,3 +22,14 @@ int actualValue=Add(input);
 ASSERT_EQ(actualValue,expectedValue);
  
 }
+
+TEST(string_calculatorTestSuite,add_two_comma_delimited_numbersString_SumIsExpected){
+//Arrange
+string input="-1,-2";
+int expectedValue=Sum;
+//Act
+int actualValue=Add(input);
+//Assert
+ASSERT_EQ(actualValue,expectedValue);
+ 
+}
