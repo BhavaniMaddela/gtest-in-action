@@ -84,7 +84,6 @@ int actualValue=Add(input);
 //Assert
 ASSERT_EQ(actualValue,expectedValue);
  
-}
  
 }
 TEST(string_calculatorTestSuite,passed_multiple_multicharacter_delimitersString_SumIsExpected){
