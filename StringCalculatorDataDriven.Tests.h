@@ -24,7 +24,7 @@ dataList.push_back(pair_three);
 dataList.push_back(pair_four);
 dataList.push_back(pair_five);
 
-/iterate using a range-based for-loop
+//Iterate using a range-based for-loop
   for(TestDataPair DataPair : datalist){
    int actualValue=Add(datapair,input);
 ASSERT_EQ(actualValue,datapair.expectedValue);
