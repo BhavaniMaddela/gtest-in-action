@@ -6,8 +6,8 @@ class TestDataPair{
 
 public:
    string input;
-   int expectedValue
-  TestDataPair(String_input,int_expectedValue) : input{_input}, expectedValue{_expectedValue}{
+   int  expectedValue
+  TestDataPair(String_input, int _expectedValue) : input{_input}, expectedValue{_expectedValue}{
    }
 };
 
