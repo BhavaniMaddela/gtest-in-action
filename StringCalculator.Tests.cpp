@@ -10,8 +10,8 @@ int actualValue;
 
 TEST_F(StringCalculatorTestSuite,add_emptyInputString_ZeroIsExpected){
 //Arrange
-string input="";
- expectedValue=0;
+input="";
+expectedValue=0;
 //Act
 actualValue=Add(input);
 //Assert
