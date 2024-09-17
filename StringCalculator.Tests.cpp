@@ -113,7 +113,7 @@ string input="-3";
 //Act
 
 //Assert
-ASSERT_EQ(Add(input),invalid argument);
+ASSERT_EQ(Add(input),invalid_argument);
 
 }
  
