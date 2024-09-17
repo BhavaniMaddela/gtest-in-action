@@ -95,4 +95,13 @@ int actualValue=Add(input);
 ASSERT_EQ(actualValue,expectedValue);
  
 }
+TEST(string_calculatorTestSuite,passed_negative_numbersString_SumIsExpected){
+//Arrange
+string input="-3";
+//Act
+int actualValue=Add(input);
+//Assert
+ASSERT_EQ(actualValue,invalid argument;
+
+}
  
