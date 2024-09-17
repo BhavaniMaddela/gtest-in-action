@@ -25,10 +25,10 @@ ASSERT_EQ(actualValue,expectedValue);
 
 TEST(string_calculatorTestSuite,add_two_comma_delimited_numbersString_SumIsExpected){
 //Arrange
-string input="-1,-2";
-int expectedValue=Sum;
+string input="1,2";
+int expectedValue=3;
 //Act
-int actualValue=Sum(input);
+int actualValue=Add(input);
 //Assert
 ASSERT_EQ(actualValue,expectedValue);
  
