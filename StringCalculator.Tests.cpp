@@ -28,7 +28,7 @@ TEST(string_calculatorTestSuite,add_two_comma_delimited_numbersString_SumIsExpec
 string input="-1,-2";
 int expectedValue=Sum;
 //Act
-int actualValue=Add(input);
+int actualValue=Sum(input);
 //Assert
 ASSERT_EQ(actualValue,expectedValue);
  
