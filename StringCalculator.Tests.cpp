@@ -99,7 +99,7 @@ TEST(string_calculatorTestSuite,passed_negative_numbersString_SumIsExpected){
 //Arrange
 string input="-3";
 //Act
-int actualValue=Add(input);
+
 //Assert
 ASSERT_EQ(Add(input),invalid argument;
 
