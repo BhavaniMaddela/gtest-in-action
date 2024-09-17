@@ -57,7 +57,7 @@ ASSERT_EQ(actualValue,expectedValue);
 TEST(string_calculatorTestSuite,when_passed_negative_numbersString_SumIsExpected){
 //Arrange
 string input="1,-2,-4,5";
-int expectedValue=-2,-4;
+int expectedValue="Negatives not allowed:-2,-4";
 //Act
 int actualValue=Add(input);
 //Assert
