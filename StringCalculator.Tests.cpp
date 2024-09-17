@@ -33,12 +33,15 @@ int actualValue=Add(input);
 ASSERT_EQ(actualValue,expectedValue);
  
 }
-TEST(string_calculatorTestSuite,when_passed_negative_numbersString_invalidsIsExpected){
+
+TEST(string_calculatorTestSuite,add_multiple_comma_delimited_numbersString_SumIsExpected){
 //Arrange
-string input="-1,-2";
-int expectedValue=invalids;
+string input="1,2,7";
+int expectedValue=10;
 //Act
 int actualValue=Add(input);
 //Assert
 ASSERT_EQ(actualValue,expectedValue);
+ 
+}
  
