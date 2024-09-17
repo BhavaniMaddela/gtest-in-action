@@ -54,10 +54,10 @@ int actualValue=Add(input);
 ASSERT_EQ(actualValue,expectedValue);
  
 }
-TEST(string_calculatorTestSuite,when_passed_negative_numbersString_SumIsExpected){
+TEST(string_calculatorTestSuite,when_delimited_with_newline_and_commaString_SumIsExpected){
 //Arrange
-string input="1,-2,-4,5";
-int expectedValue="Negatives not allowed:-2,-4";
+string input="1\n2,3";
+int expectedValue=6;
 //Act
 int actualValue=Add(input);
 //Assert
