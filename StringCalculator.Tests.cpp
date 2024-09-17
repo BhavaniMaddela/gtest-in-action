@@ -12,9 +12,9 @@ ASSERT_EQ(actualValue,expectedValue);
  
 }
 
-TEST(string_calculatorTestSuite,string_calculator_add_ZeroIsExpected){
+TEST(string_calculatorTestSuite,add_ZeroInputString_ZeroIsExpected){
 //Arrange
-string input="";
+string input="0";
 int expectedValue=0;
 //Act
 int actualValue=Add(input);
