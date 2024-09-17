@@ -1,7 +1,14 @@
 #include "StringCalculator.h"
 #include <gtest/gtest.h>
 
-TEST(StringCalculatorTestSuite,add_emptyInputString_ZeroIsExpected){
+class StringCalculatorFixture:public testing::test{
+protected:
+string input;
+int expectedValue;
+int actualValue;
+};
+
+TEST_F(StringCalculatorTestSuite,add_emptyInputString_ZeroIsExpected){
 //Arrange
 string input="";
 int expectedValue=0;
