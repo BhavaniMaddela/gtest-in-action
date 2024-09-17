@@ -44,4 +44,24 @@ int actualValue=Add(input);
 ASSERT_EQ(actualValue,expectedValue);
  
 }
+TEST(string_calculatorTestSuite,passed_a_delimiterString_SumIsExpected){
+//Arrange
+string input="//;\n1;2";
+int expectedValue=3;
+//Act
+int actualValue=Add(input);
+//Assert
+ASSERT_EQ(actualValue,expectedValue);
+ 
+}
+TEST(string_calculatorTestSuite,when_passed_negative_numbersString_SumIsExpected){
+//Arrange
+string input="1,-2,-4,5";
+int expectedValue=-2,-4;
+//Act
+int actualValue=Add(input);
+//Assert
+ASSERT_EQ(actualValue,expectedValue);
+ 
+}
  
