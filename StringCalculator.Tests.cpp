@@ -85,4 +85,14 @@ int actualValue=Add(input);
 ASSERT_EQ(actualValue,expectedValue);
  
 }
+TEST(string_calculatorTestSuite,when_passed_numbers_over_1000String_SumIsExpected){
+//Arrange
+string input="//46,1001,3";
+int expectedValue=49;
+//Act
+int actualValue=Add(input);
+//Assert
+ASSERT_EQ(actualValue,expectedValue);
+ 
+}
  
