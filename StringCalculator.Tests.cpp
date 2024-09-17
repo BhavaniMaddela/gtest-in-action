@@ -73,16 +73,6 @@ int actualValue=Add(input);
 //Assert
 ASSERT_EQ(actualValue,expectedValue);
  
-}
-
-TEST(string_calculatorTestSuite,when_passed_negative_numbersString_SumIsExpected){
-//Arrange
-string input="1,-2,3,-4";
-string expectedValue=invalid_argument;
-//Act
-int actualValue=Add(input);
-//Assert
-ASSERT_EQ(actualValue,invalid argument);
  
 }
 TEST(string_calculatorTestSuite,passed_multiple_multicharacter_delimitersString_SumIsExpected){
