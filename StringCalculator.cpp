@@ -43,11 +43,13 @@ vector<int> get_numbers(const string &input) {
 	return numbers;
 }
 
+
 void  Add(const string &input,void(*displayPtr)(int)) {
 	if (input.empty()){
 		(*displayPtr)(0);
-	          return;
+		return;
 	}
+
 	vector<int> numbers = get_numbers(input);
 
 	check_for_negatives(numbers);
