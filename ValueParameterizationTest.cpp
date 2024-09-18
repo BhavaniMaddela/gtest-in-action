@@ -10,6 +10,7 @@ protected:
 class StringCalculatorParameterFixture:public StringCalculatorFixture,public testing::withparaminterface<tuple<string,int>>{
 };
 //paramater values
+//INSTANTIATE_TEST_SUITE_P(name of collection,fixture with test param, testing::Values(make_tuple()));
 INSTANTIATE_TEST_SUITE_P(ValidStringCalculatorInputs,StringCalculatorParameterFixture,testing::values(
   make_tuple("",0)
   make_tuple("0", 0),
